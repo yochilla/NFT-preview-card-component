@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* body{
+    background-color: #0d1a2d;
+    margin-top: 10;
+}
+
+main{
+    background-color: hsl(216, 50%, 16%);
+    width: 25rem;
+    height: 38rem;
+    margin-left: 30rem;
+    display: flex;
+    position: absolute;
+    border-radius: 15px;
+    box-shadow: 2px 3px 45px #0c1729ff;
+    flex-direction: column;
+    align-items: center;
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+figure img {
+    border-radius: 15px;
+    width: 322px;
+    height: 322px;
+}
+
+section{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: -4rem;
+    margin-top: -1rem;
+}
+
+h1{
+    color: white;
+    font-weight: 600;
+    font-family: 'Outfit';
+}
+
+p{
+    margin-top: -3px;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-family: 'Outfit';
+    font-weight: 300;
+
+}
+
+.section2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+#left {
+    padding: 1rem 0rem 0rem 4rem;
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+
+#right{
+    padding:0rem 0rem 0rem 9rem;
+    font-weight: 400;
+    font-family: 'Outfit';
+}
+
+hr{
+    width: 22rem;
+    border: 1px solid hsl(215, 32%, 27%);
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+footer img{
+    Width: 45px;
+    border-color: #ffffff93;
+    border-style: solid;
+    border-radius: 30PX;
+    margin: 7px 22px 0px -5rem;
+}
+
+footer p{
+    color:  #8bacda;
+    font-size: 18px;
+    font-family:'Outfit';
+    font-weight: 300;
+}
+
+span{
+    color: white;
+}
+
